@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Podkova&display=swap');
+
+body{
+  background: #f36eb5;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #e9b8d2, #f098c7, #f36eb5);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #e9b8d2, #f098c7, #f36eb5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+}
+
+.App {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.input-form{
+  max-width: 978px;
+  width: 60vw;
+  display:flex;
+  border: 1px solid #e9ecef;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.error{
+  color: #e45685;
+}
+
+.success{
+  color: #12c64b;
+}
+
+.link {
+  color: #f36eb5;
+}
+
+.link:hover {
+  color: #e9b8d2;
+}
+
+h1 {
+  font-family: "Sigmar One", cursive;
+  font-weight: 400;
+  margin: 0;
+}
+
+* > * {
+  font-family: "Podkova", cursive;
+}
+
+#form{
+  max-width: 320px;
+  width: 60vw;
+}
+
+#form >  input, .btn{
+  border: 1px solid #e9ecef;
+  padding: .9em 1em;
+}
+
+#form > input:focus{
+  outline: none;
+}
+
+#form > .btn{
+  background-color: #f68fcd;
+  color: #ffffff;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.signout-btn {
+  
+  background-color: #ffffff;
+  color: #f68fcd;
+  font-size: 1em;
+  cursor: pointer;
+  border: 1px solid #e9ecef;
+  padding: 0;
+}
+
+.flex{
+  display: flex;
+  gap: 1em;
+}
+
+.flex-col{
+  flex-direction: column;
+  margin: auto;
+  padding: 3em 0;
+}
